@@ -1,1 +1,1 @@
-# bem280_gui
+# bem280 + attiny2313 + usart module + qt
