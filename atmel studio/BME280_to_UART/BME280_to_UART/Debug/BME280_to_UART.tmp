@@ -1,0 +1,62 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc\tn2313adef.inc</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\config.inc</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\vars.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\interrupts_vector.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\interrupts.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\initialization.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\lib.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\uart.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\Debug\BME280_to_UART.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>BME280_to_UART.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>BME280_to_UART.map</FILE>
+  <FILE>BME280_to_UART.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <BME280_data><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\vars.asm</FILE><LINE>24</LINE></BME280_data>
+  <USART_data><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\vars.asm</FILE><LINE>25</LINE></USART_data>
+  <start><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\main.asm</FILE><LINE>22</LINE></start>
+  <init><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\initialization.asm</FILE><LINE>5</LINE></init>
+  <_UART_RX><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\interrupts.asm</FILE><LINE>5</LINE></_UART_RX>
+  <_UART_RX_first_byte><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\interrupts.asm</FILE><LINE>36</LINE></_UART_RX_first_byte>
+  <_UART_RX_read_all_register_and_transmit><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\interrupts.asm</FILE><LINE>43</LINE></_UART_RX_read_all_register_and_transmit>
+  <twi_write_one_byte><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>197</LINE></twi_write_one_byte>
+  <_UART_RX_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\interrupts.asm</FILE><LINE>28</LINE></_UART_RX_end>
+  <twi_read_package><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>134</LINE></twi_read_package>
+  <transmit_all_register_loop><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\interrupts.asm</FILE><LINE>72</LINE></transmit_all_register_loop>
+  <transmit_all_register_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\interrupts.asm</FILE><LINE>81</LINE></transmit_all_register_end>
+  <USART_Transmit><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\uart.asm</FILE><LINE>4</LINE></USART_Transmit>
+  <main><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\main.asm</FILE><LINE>32</LINE></main>
+  <MCU_wait_10mks><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\lib.asm</FILE><LINE>5</LINE></MCU_wait_10mks>
+  <MCU_wait_loop><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\lib.asm</FILE><LINE>10</LINE></MCU_wait_loop>
+  <twi_start><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>4</LINE></twi_start>
+  <twi_stop><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>29</LINE></twi_stop>
+  <twi_master_transfer><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>48</LINE></twi_master_transfer>
+  <loop_send><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>53</LINE></loop_send>
+  <twi_send_byte><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>74</LINE></twi_send_byte>
+  <twi_set_status_bit><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>178</LINE></twi_set_status_bit>
+  <twi_recive_byte><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>96</LINE></twi_recive_byte>
+  <twi_recive_ack><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>112</LINE></twi_recive_ack>
+  <twi_recive_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>116</LINE></twi_recive_end>
+  <twi_read_package_recive><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>151</LINE></twi_read_package_recive>
+  <twi_read_package_recive_last_byte><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>161</LINE></twi_read_package_recive_last_byte>
+  <twi_set_status_bit_ack><FILE>C:\Users\user\Documents\Atmel Studio\7.0\BME280_to_UART\BME280_to_UART\twi_mp.asm</FILE><LINE>186</LINE></twi_set_status_bit_ack>
+ </LABELS>
+</ASSEMBLER_INFO>
